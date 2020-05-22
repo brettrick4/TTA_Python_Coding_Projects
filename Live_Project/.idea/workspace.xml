@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7e466e17-8da2-4d7d-a267-ace0de8429d4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/HobbyTracker/MainProject/LegoMyApp/WeatherApi.py" beforeDir="false" afterPath="$PROJECT_DIR$/HobbyTracker/MainProject/LegoMyApp/WeatherApi.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/HobbyTracker" value="BD6361edit" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/HobbyTracker" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectId" id="1ZxXYKkYcgN70IM4yY2aZgexJEC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HobbyTracker/MainProject/LegoMyApp" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\more_live_project\HobbyTracker\MainProject\LegoMyApp" />
+      <recent name="C:\more_live_project\HobbyTracker\MainProject\templates" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e466e17-8da2-4d7d-a267-ace0de8429d4" name="Default Changelist" comment="" />
+      <created>1585781764949</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585781764949</updated>
+    </task>
+    <task id="LOCAL-00001" summary="So close to being done with story #2, now I realize I am doing also some stuff from story #3.">
+      <created>1585958160000</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585958160001</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="So close to being done with story #2, now I realize I am doing also some stuff from story #3." />
+    <option name="LAST_COMMIT_MESSAGE" value="So close to being done with story #2, now I realize I am doing also some stuff from story #3." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1720" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586466179899">
+      <screen x="1600" y="0" width="1360" height="768" />
+    </state>
+    <state x="1720" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860/1600.0.1360.768@1600.0.1360.768" timestamp="1586466179899" />
+    <state x="2029" y="185" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585957883437">
+      <screen x="1600" y="0" width="1360" height="768" />
+    </state>
+    <state x="2029" y="185" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860/1600.0.1360.768@1600.0.1360.768" timestamp="1585957883437" />
+    <state x="1936" y="0" key="CommitChangelistDialog2" timestamp="1586218273067">
+      <screen x="1600" y="0" width="1360" height="768" />
+    </state>
+    <state x="1936" y="0" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1360.768@1600.0.1360.768" timestamp="1586218273067" />
+    <state x="1700" y="157" width="1139" height="437" key="DiffContextDialog" timestamp="1586036865346">
+      <screen x="1600" y="0" width="1360" height="768" />
+    </state>
+    <state x="1700" y="157" width="1139" height="437" key="DiffContextDialog/0.0.1600.860/1600.0.1360.768@1600.0.1360.768" timestamp="1586036865346" />
+    <state x="1771" y="0" key="SettingsEditor" timestamp="1586453514804">
+      <screen x="1600" y="0" width="1360" height="768" />
+    </state>
+    <state x="1771" y="0" key="SettingsEditor/0.0.1600.860/1600.0.1360.768@1600.0.1360.768" timestamp="1586453514804" />
+    <state x="1861" y="111" key="Vcs.Push.Dialog.v2" timestamp="1586030210496">
+      <screen x="1600" y="0" width="1360" height="768" />
+    </state>
+    <state x="1861" y="111" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.768@1600.0.1360.768" timestamp="1586030210496" />
+    <state x="445" y="239" width="853" height="333" key="com.intellij.ide.util.TipDialog" timestamp="1586452820593">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="1978" y="203" key="com.intellij.ide.util.TipDialog/0.0.1600.860/1600.0.1360.768@1600.0.1360.768" timestamp="1585937529901" />
+    <state x="445" y="239" width="853" height="333" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1586452820593" />
+    <state x="1920" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585874986885">
+      <screen x="1600" y="0" width="1360" height="768" />
+    </state>
+    <state x="1920" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1600.860/1600.0.1360.768@1600.0.1360.768" timestamp="1585874986885" />
+  </component>
+</project>
