@@ -1,0 +1,24 @@
+{% extends 'LegoMyApp/lego_base.html' %}
+{% load staticfiles %}
+{% block templatecontent %}
+    <section>
+        <div class="flex container" id="WeatherPage">
+            <form method="post">
+                {% csrf_token %}
+                <table>
+                    <label>Your current location:</label>
+                        {{ location }}
+                    <label>The current tempurature in degrees Fahrenheit:</label>
+                        {{ current_tempurature }}
+                    <label>Cloud cover %:</label>
+                        {{ clouds }}
+                    <label>Wind speend in mph:</label>
+                        {{ wind }}
+                    <label>Relative humidity %:</label>
+                        {{ humidity }}
+                </table>
+            </form>
+        </div>
+
+    </section>
+{% endblock %}

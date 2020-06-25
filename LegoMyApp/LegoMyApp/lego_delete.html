@@ -1,0 +1,12 @@
+{% extends 'LegoMyApp/lego_base.html' %}
+{% load staticfiles %}
+{% block templatecontent %}
+    <form method="POST" class="lego_delete">
+        {% csrf_token %}
+        <p id="lego_deletetext">To remove this Lego set from the database,<br>
+            press the "Delete" button. Press "Back" to return to index.</p>
+        <br>
+        <a href="{% url 'list_lego_sets' %}"><button class="LegoButton" type="button"></button>Back</a>
+        <input type="submit" value="Delete" class="lego_delete_button">
+    </form>
+{% endblock %}

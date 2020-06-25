@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block appcontent %}
+    <section>
+        <div class="flex-container wrapper">
+           <h3 class="LegoHeader">LEGO Collections Application</h3>
+            <hr/>
+            <a class= 'tabNavLego' href="{% url 'lego_home' %}">LEGO Home</a>
+            <a class= 'tabNavLego' href="{% url 'list_lego_sets' %}">Sets</a>
+            <a class= 'tabNavLego' href="{% url 'list_minifigs' %}">Minifigs</a>
+            <a class= 'tabNavLego' href="{% url 'api_response' %}">Lego Outside</a>
+        </div>
+    </section>
+{% block templatecontent %}{% endblock %}
+{% endblock %}

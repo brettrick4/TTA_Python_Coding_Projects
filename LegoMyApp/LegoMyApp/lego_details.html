@@ -1,0 +1,26 @@
+{% extends 'LegoMyApp/lego_base.html' %}
+{% load staticfiles %}
+{% block templatecontent %}
+    <section>
+        <div class="flex container" id="legoDetails">
+            <table>
+                <tr>
+                    <th>Set Name</th>
+                    <td>{{lego_set.name}}</td>
+                </tr>
+                <tr>
+                    <th>Category</th>
+                    <td>{{lego_set.category}}</td>
+                </tr>
+                <tr>
+                    <td colspan="5"> <!-- colspan is here to center the image under the other rows -->
+                    {% if lego_set.image %}
+                        <img src="{{lego_set.image.url}}" class="lego_img"/>      <!-- this gets the posted images from user's directory to show up on the page -->
+                    {% endif %}
+                    </td>
+                </tr>
+            </table>
+            <button class="LegoButton" type="button" onclick="location.href='{% url 'list_lego_sets' %}'">Back to Collection</button>
+        </div>
+    </section>
+{% endblock %}

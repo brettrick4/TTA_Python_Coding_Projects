@@ -1,0 +1,32 @@
+{% extends 'LegoMyApp/lego_base.html' %}
+{% load staticfiles %}
+{% block templatecontent %}
+<section>
+    <div class="flex-container" id="legoCollectionPage">
+        <table class="table-striped">
+            <tr>
+                <th class="col-md">Set Name</th>
+                <th class="col-md">Category</th>
+                <th class="col-md">Visual</th>
+            </tr>
+            {% for lego_set in lego_sets %}     <!-- creates a new row for each lego_set -->
+                <tr>
+                    <td class="col-md">{{lego_set.name}}</td>
+                    <td class="col-md">{{lego_set.category}}</td>
+                    <td class="col-md">
+                        {% if lego_set.image %}
+                        <img src="{{lego_set.image.url}}" class="img_thumb"/>      <!-- this gets the posted images from user's directory to show up on the page as a thumbnail -->
+                        {% endif %}
+                    </td>
+                    <td class="col-md">
+                        <a href="{{lego_set.id}}/Edit"><button class="LegoButtonEdit">Edit</button></a>
+                       <a href="{{lego_set.pk}}/Details"><button class="LegoButtonDetails">Details</button></a>
+                       <td class="col-md"><a href="{{lego_set.pk}}/Delete"><button class="LegoButton">Delete</button></a>
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+        <button class="LegoButton" type="button" onclick=" location.href='{% url 'add_set' %}'">Add to Collection</button>
+    </div>
+</section>
+{% endblock templatecontent %}

@@ -1,0 +1,11 @@
+{% extends 'LegoMyApp/lego_base.html' %}
+{% load staticfiles %}
+{% block templatecontent %}
+<section>
+    <div id="legoPic">
+        <img src="{% static 'images/LegoMyApp/lego_home.jpg' %}"><br/>
+        <span class="legomyapp_center"><strong><h4>Welcome to the Lego Collections App</h4></strong>
+        It's time to take those Legos out of the box and start building!</span>
+    </div>
+</section>
+{% endblock %}

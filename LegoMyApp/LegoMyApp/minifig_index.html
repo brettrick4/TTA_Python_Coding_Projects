@@ -1,0 +1,29 @@
+{% extends 'LegoMyApp/lego_base.html' %}
+{% load staticfiles %}
+{% block templatecontent %}
+<section>
+    <div class="flex container" id="minifigCollectionPage">
+        <table class="table-striped">
+            <tr>
+                <th class="col-md">Character</th>
+                <th class="col-md">Visual</th>
+            </tr>
+            {% for minifig in minifigs %}       <!-- creates a new row for each character -->
+            <tr>
+                <td class="col-md">{{minifig.character}}</td>
+                <td class="col-md">
+                    {% if minifig.image %}
+                    <img src="{{minifig.image.url}}" class="img_thumb"/>      <!-- this gets the posted images from user's directory to show up on the page as a thumbnail -->
+                    {% endif %}
+                </td>
+                <td class="col-md">
+                   <a href="{{minifig.pk}}/Details"><button class="LegoButtonDetails">Details</button></a>
+                   <td class="col-md"><a href="{{minifig.pk}}/Delete"><button class="LegoButton">Delete</button></a>
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+        <button class="LegoButton" type="button" onclick="location.href='{% url 'add_minifig' %}'"> Add to Characters </button>
+    </div>
+</section>
+{% endblock templatecontent %}

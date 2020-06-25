@@ -1,0 +1,17 @@
+{% extends 'LegoMyApp/lego_base.html' %}
+{% load staticfiles %}
+{% block templatecontent %}
+<section>
+    <div class="flex-container">
+        <form method="post" enctype="multipart/form-data" class="LegoTable">    <!-- enctype is used to upload files using filefeild or imagefeild -->
+            {% csrf_token %}
+            <table>
+                {{ form.as_table }} <!-- this only renders the td tags, still need the table tags -->
+            </table>
+            {{ form.non_field_errors }}
+            <button class="LegoButton" type="submit">Add to  Collection </button>
+            <button class="LegoButton" type="button" onclick="location.href='{% url 'list_lego_sets' %}'">Back to Collection</button>
+        </form>
+    </div>
+</section>
+{% endblock %}

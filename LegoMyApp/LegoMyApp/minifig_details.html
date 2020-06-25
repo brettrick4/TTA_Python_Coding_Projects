@@ -1,0 +1,22 @@
+{% extends 'LegoMyApp/lego_base.html' %}
+{% load staticfiles %}
+{% block templatecontent %}
+    <section>
+        <div class="flex container" id="minifigDetails">
+            <table>
+                <tr>
+                    <th>Character</th>
+                    <td>{{minifig.character}}</td>
+                </tr>
+                <tr>
+                    <td colspan="5"> <!-- colspan is here to center the image under the other rows -->
+                    {% if minifig.image %}
+                        <img src="{{minifig.image.url}}" class="minifig_img"/>      <!-- this gets the posted images from user's directory to show up on the page -->
+                    {% endif %}
+                    </td>
+                </tr>
+            </table>
+            <button class="LegoButton" type="button" onclick="location.href='{% url 'list_minifigs' %}'">Back to Characters</button>
+        </div>
+    </section>
+{% endblock %}
